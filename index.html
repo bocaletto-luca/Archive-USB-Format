@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic Meta Tags -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Archive USB Format Free – USB Drive Formatter</title>
+  <meta name="description" content="Archive USB Format Free is an open-source Python app for quick and easy USB drive formatting (FAT32 or NTFS), with auto-detect and a simple GUI.">
+  <meta name="keywords" content="USB format, FAT32, NTFS, Python, cross-platform, drive formatter, open source">
+  <meta name="author" content="Bocaletto Luca">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://github.com/bocaletto-luca/Archive-USB-Format">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Archive USB Format Free – USB Drive Formatter">
+  <meta property="og:description" content="Format your USB drives in FAT32 or NTFS with a friendly Python GUI. Auto-detects drives, cross-platform, GPLv3.">
+  <meta property="og:url" content="https://github.com/bocaletto-luca/Archive-USB-Format">
+  <meta property="og:site_name" content="Archive USB Format Free">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Archive USB Format Free – USB Drive Formatter">
+  <meta name="twitter:description" content="Simple cross-platform USB formatting app in Python. Choose FAT32 or NTFS, auto-detect drives, GPLv3.">
+
+  <!-- GitHub Markdown Styling -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.1.0/github-markdown.min.css"
+        integrity="sha512-1tV2HpYPXDWZ2U8dGBwS3OWg0doP+2hT0f5Sm5aUnRpxYgiK7g+K1/L0N0o+7vL8VtPrTzZgr9wKbI6mJRwrDw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 1rem;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background: #f6f8fa;
+      color: #24292e;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 2rem;
+      border-radius: 6px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    h1 { margin-top: 0; font-size: 2rem; }
+    h2 { margin-top: 1.5rem; font-size: 1.5rem; }
+    p, ul, ol { margin-bottom: 1rem; }
+    ul, ol { padding-left: 1.2rem; }
+    pre {
+      background: #f0f0f0;
+      padding: 1rem;
+      border-radius: 4px;
+      overflow-x: auto;
+      margin: 1rem 0;
+    }
+    code {
+      background: #f0f0f0;
+      padding: .2rem .4rem;
+      border-radius: 4px;
+      font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+    }
+    img.screenshot {
+      display: block;
+      max-width: 100%;
+      margin: 1rem 0;
+      border: 1px solid #e1e4e8;
+      border-radius: 4px;
+    }
+    a { color: #0366d6; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    @media (max-width: 600px) {
+      body { padding: .5rem; }
+      .container { padding: 1rem; }
+    }
+    footer {
+      margin-top: 3rem;
+      padding-top: 1rem;
+      border-top: 1px solid #e1e4e8;
+      text-align: center;
+      font-size: .9rem;
+      color: #57606a;
+    }
+    footer a { margin: 0 .5rem; color: inherit; }
+  </style>
+</head>
+
+<body class="markdown-body">
+  <div class="container">
+    <h1>Archive USB Format Free</h1>
+    <p><em>Simple, efficient Python app to format USB drives (FAT32 or NTFS) with auto-detect and a friendly GUI.</em></p>
+
+    <p><strong>Author:</strong> Bocaletto Luca</p>
+    <p><strong>License:</strong> GPLv3 &nbsp;|&nbsp; <a href="LICENSE">View LICENSE</a></p>
+    <p><strong>Source:</strong> <a href="https://github.com/bocaletto-luca/Archive-USB-Format">GitHub Repository</a></p>
+
+    <h2>Key Features</h2>
+    <ul>
+      <li>Format USB drives quickly (FAT32 or NTFS)</li>
+      <li>Automatically detects connected USB drives</li>
+      <li>Easy-to-use graphical interface (tkinter)</li>
+      <li>Cross-platform: Windows, Linux, macOS</li>
+      <li>Distributed under GPLv3 for freedom and customization</li>
+    </ul>
+
+    <h2>System Requirements</h2>
+    <ul>
+      <li>Python 3.7 or newer</li>
+      <li>tkinter (standard library GUI toolkit)</li>
+      <li>psutil (for drive detection)</li>
+      <li>subprocess (standard library)</li>
+    </ul>
+
+    <h2>Installation</h2>
+    <pre><code class="language-bash"># Clone the repository
+git clone https://github.com/bocaletto-luca/Archive-USB-Format.git
+cd Archive-USB-Format
+
+# Install dependencies
+pip install psutil</code></pre>
+
+    <h2>How to Use</h2>
+    <ol>
+      <li>Launch the app:
+        <pre><code class="language-bash">python main.py</code></pre>
+      </li>
+      <li>Select your file system (FAT32 or NTFS) from the dropdown</li>
+      <li>Choose the USB drive to format</li>
+      <li>Click <strong>Format</strong> to begin</li>
+      <li>View the result message in the application window</li>
+    </ol>
+
+    <h2>Screenshots</h2>
+    <!-- Replace with actual hosted image URLs -->
+    <img class="screenshot" src="PATH_TO_SCREENSHOT_1.png" alt="Archive USB Format Free – Main Window">
+    <img class="screenshot" src="PATH_TO_SCREENSHOT_2.png" alt="Archive USB Format Free – Drive Selection">
+
+    <footer>
+      <p>© 2025 Bocaletto Luca</p>
+      <p>
+        <a href="https://bocaletto-luca.github.io">bocaletto-luca.github.io</a> |
+        <a href="https://bocalettoluca.altervista.org">bocalettoluca.altervista.org</a>
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
