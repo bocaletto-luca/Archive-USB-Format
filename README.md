@@ -34,3 +34,13 @@ Archive USB Format Free is a straightforward and efficient open-source applicati
 3. Choose the USB drive you intend to format from the dropdown menu.
 4. Click the "Format" button to initiate the formatting process.
 5. The result of the formatting operation will be displayed within the application.
+
+---
+
+**Note**: Ensure that you have installed all the necessary dependencies before running the application.
+
+**Maintainer Update**
+
+My current GitHub account is **@bocaletto-luca**, which is now the official maintainer of all projects previously published under the **@Elektronoide** account. Please direct any issues, pull requests, or stars to **@bocaletto-luca** for future updates.
+
+---
