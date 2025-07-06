@@ -2,7 +2,7 @@
 
 **Author:** Bocaletto Luca
 
-**Language:** Python
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue?style=for-the-badge&logo=gnu)](LICENSE) [![Language: Python](https://img.shields.io/badge/Language-Python-blue?style=for-the-badge&logo=python)](https://www.python.org/) [![Linux-Compatible](https://img.shields.io/badge/Linux-Compatible-blue?style=for-the-badge&logo=linux)](https://www.kernel.org/) [![Status: Complete](https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge)](https://github.com/bocaletto-luca/Directory-Monitor)
 
 Archive USB Format Free is a straightforward and efficient open-source application developed by Luca Bocaletto. It allows you to format USB drives connected to your computer with ease. Users can select their preferred file system (FAT32 or NTFS) and choose the USB drive they wish to format. The application also automatically detects connected USB drives, simplifying the selection process. Its intuitive user interface makes it accessible to users of all levels of experience. Archive USB Format Free is distributed under the GPLv3 license, ensuring software freedom and sharing. This user-friendly and highly customizable software is an excellent tool for USB drive management and quick, reliable formatting.
 
